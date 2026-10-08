@@ -1,4 +1,4 @@
-# Project-4-SEM-Factor-Model
+# SEM-Factor-Model
 # Consideration of Future Consequences: Factor Structure and Gender Invariance in R
 
 This project investigates the dimensional structure of teenagers' **Consideration of Future Consequences (CFC)** and examines whether the construct is measured equivalently across gender identities.
