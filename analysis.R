@@ -5,15 +5,16 @@
 #------------------------------------------------------------------------------- LOADING DATA AND PACKAGES
 # Load packages
 library(lavaan)
-library(semTools)
+library(semPlot)
 library(tidyverse)
-library(haven)
 library(dplyr)
 library(countrycode)
 library(psych)
 
 # Import Data
-CFCS <- read_delim("UvA/second year/SEM/CFCS.csv", 
+args <- commandArgs(trailingOnly = TRUE)
+if (!length(args) || !file.exists(args[1])) stop("Supply the path to an authorized CFCS questionnaire TSV file; see README.md")
+CFCS <- read_delim(args[1], 
                    delim = "\t", escape_double = FALSE, 
                    trim_ws = TRUE,
                    na = "0")
@@ -63,7 +64,7 @@ country_stats <- data.frame(Country = names(counts),
                             Percentage = percentages)
 
 # View the table
-View(country_stats)
+print(country_stats)
 
 
 # Use countrycode with custom dictionary
@@ -114,7 +115,7 @@ gender_stats <- data.frame(Gender = names(counts2),
                            Percentage = percentages2)
 
 # View the table
-View(gender_stats)
+print(gender_stats)
 
 #------------------------------------------------------------------------------- MISSINGNESS
 # Calculate the percentage of missing values for each column
