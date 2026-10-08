@@ -90,7 +90,7 @@ R-Project-4-SEM-Factor-Model/
 │
 ├── Project 4 - SEM Factor Model.docx   # Written analysis and results
 ├── README.md                           # Project documentation
-└── [R analysis script, if added]       # Source code for reproducing the analysis
+└── Project 4 - SEM Factor Model.R      # Source code for reproducing the analysis
 ```
 
 ## Running the Analysis
