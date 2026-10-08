@@ -39,4 +39,4 @@ The smallest gender subgroup contained 77 respondents, which limits precision fo
 
 ## Credits
 
-I completed this individual coursework project as **Laura Maria Fetz**. The questionnaire data came from the Open-Source Psychometrics Project.
+This was completed by **Laura Maria Fetz**. The questionnaire data came from the Open-Source Psychometrics Project.
