@@ -1,7 +1,6 @@
 ### Laura Maria Fetz
-### Writing Assignment 2
-### Structural Equation Modeling
-### Last updated 15. December 2023
+### SEM Factor Model Multi-group
+### Last updated: 8th of October 2026
 
 #------------------------------------------------------------------------------- LOADING DATA AND PACKAGES
 # Load packages
