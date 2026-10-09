@@ -1,4 +1,4 @@
-# Consideration of future consequences: factor structure and invariance
+# Consideration of future consequences: factor structure and invariance 
 
 I examined whether the twelve-item Consideration of Future Consequences scale was better described by one factor or two. I used an Open-Source Psychometrics course subset of 5,525 respondents aged 13–19, collected in 2011–2012. I fitted confirmatory factor models with FIML and tested measurement invariance across gender groups. In my original report, the two-factor model had CFI = 0.951 and RMSEA = 0.058, compared with 0.912 and 0.077 for one factor.
 
